@@ -1,0 +1,30 @@
+
+.img-login {
+    height: 80%;
+}
+@media screen and (max-width: 640px) {
+.img-login {
+    margin-top: 10% ;
+    height: 50%;
+}
+}
+
+.cercle {
+    margin-top: 2vw ;
+  border-radius: 50% ;
+    padding: 16px ;
+    width : 60px;
+    height: 60px;
+    border: 1px solid black ;
+}
+
+.twitter {
+    color :aqua ;
+    border : 1px solid aqua !important;
+   
+}
+
+.twitter:hover {
+   color:white ;
+    background-color: aqua ;
+}

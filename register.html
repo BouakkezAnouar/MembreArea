@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+          <link rel="stylesheet" href="css/register.css">
+        <title>Bootstrap Example</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    </head>
+
+<body>
+  <nav class="navbar navbar-light bg-light navbar-expand-lg ">
+      <div class="container">
+            <a href="#" class="navbar-brand">Espace Membre</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                 <ul class="navbar-nav ">
+                    <li class="navbar-item">
+                        <a href="index.html" class="nav-link">Acceuil</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                        <a href="register.html" class="nav-link">S'inscrire</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="login.html" class="nav-link">Se connecter</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+        </nav>
+    
+   <main class="-container">
+       <div class="row">
+            <img  class="img-register col-lg-6 col-sm-12 mt-3 pl-5"  src="res/register.jpg" >
+           <div class="col-lg-6 col-sm-12 inscrivez " align="center">
+               <div class="container  pt-1 mt-5">
+                <h1> Inscrivez vous</h1>
+                 <form id="mainForm">
+                    <div class="col-md-8 mb-3">
+                      <input type="text" class="form-control " id="firstName" placeholder="First name" required>
+                      <div align="left" class="">
+                          
+                    </div>
+                  </div>
+                      <div class="col-md-8 mb-3">
+
+                          <input type="text" class="form-control " id="lastName" placeholder="Last name" required>
+                          <div align="left" class="">
+
+                         </div>
+                      </div>
+                      <div class="col-md-8 mb-3">
+                         
+                          <input type="text" class="form-control"  id="pseudo" placeholder="Pseudo" required>
+                          <div align="left" class="">
+
+                         </div>
+                      </div>
+                      <div class="col-md-8 mb-3">
+    
+                          <input type="email"  id="email" class="form-control "  placeholder="Email" required>
+                          <div align="left" class="">
+
+                         </div>
+                      </div>
+                      <div class="col-md-8 mb-3">
+                         
+                          <input type="password" class="form-control" id="password" placeholder="Mot de passe" required>
+                          <div align="left" class="">
+
+                         </div>
+                      </div>
+                     <div class="col-md-8 mb-3">
+                         
+                          <input type="password" class="form-control" id="confirmedPassword" placeholder="Confirmer mot de passe" required>
+                          <div align="left" class="">
+
+                         </div>
+                      </div>
+                     <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                       J'accepte les termes et les condition
+                      </label>
+                    </div>
+                     <div>
+                        <button class=" mt-2 btn btn-success  btn-lg col-md-8" type="submit col">S'inscrire</button>
+                     </div>
+                     <div class="pt-3 pb-5 offset-lg-1 offset-md-3">Vous avez deja un compte <a href="login.html">Se connecter</a></div>
+                </form>
+               </div>
+           </div>
+        </div>
+    </main>
+     <footer class=" font-small p-1  ">
+        <div class="flex container">
+          <div class="">© 2018 Copyright:
+           Bouakkez Anouar
+          </div>
+          <div class="ml-auto">
+            <img src="res/twitter.png" width="20" height="20" class="img-fluid">
+              <img src="res/facebook.png" width="20" height="20" class="img-fluid">
+              <img src="res/instagram.png" width="20" height="20" class="img-fluid">
+              <img src="res/linkedin.png" width="30" height="30" class="img-fluid">
+            </div>
+        </div>
+    </footer>
+    </body>
+     <script src="js/register.js"> </script>
+</html>

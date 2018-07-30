@@ -1,0 +1,84 @@
+
+.a {
+    background-color: azure;
+}
+
+.acceuil {
+    color: darkcyan !important ; 
+}
+
+.bienvenue-section {
+    height: 60% ;
+    background-image: url(../res/introduction6.jpg);
+    display: flex ;
+    align-items: center;
+    justify-content: center ;
+}
+
+
+
+.bienvenue-title {
+    color: aqua ;
+    margin :0 ;
+}
+
+.bienvenue-text {
+    margin: 0 ;
+    color: white ;
+}
+
+.text-container {
+    text-align: center ;
+    font-size: 15px ;
+    padding :1.5vw 1.4vw  ;
+    display: inline-block ;
+    border: solid 2px #62cde5  ; 
+    }
+
+@media only screen and (min-width: 700px) {
+    .text-container {
+    font-size: 20px ;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .text-container {
+    font-size: 10px ;
+    }
+}
+
+.newsletter {
+    height: 35%;
+}
+
+#emailIndex {
+    
+    width: 300px;
+    border-radius: 20px;
+}
+
+.send-img {
+    margin-left: -31px;
+    margin-top:-4px;
+}
+
+footer {
+    width: 100% ;
+    flex: 1 ;
+    position: fixed ;
+    bottom: 0 ;
+    background-color: black ;
+    color :white ;
+    padding: 10px;
+    display: flex ;
+    justify-content: space-around ;
+}
+
+.footer-text-left {
+    font-size : 1vw ;
+}
+
+.flex {
+    display: flex ; 
+    justify-content: center ;
+}
+
